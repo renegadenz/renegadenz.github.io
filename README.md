@@ -1,2 +1,2 @@
-# lordknightnz.github.io
+# renegadenz.github.io
 Repo for CV
