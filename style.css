@@ -1,71 +1,75 @@
 /* Reset default styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Set font and color for body */
-  body {
-    font-family: Calibri, sans-serif;
-    color: #333;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Style links */
-  a {
-    text-decoration: none;
-    color: #0077cc;
-  }
-  
-  /* Set layout for header */
-  header {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Set layout for main content area */
-  main {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Set layout for footer */
-  footer {
-    background-color: #f9f9f9;
-    padding: 20px;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Add a class for highlighting text */
-  .highlight {
-    background-color: #ffff99;
-  }
-  
-  /* Set styles for headings */
-  h1, h2, h3 {
-    font-weight: bold;
-    line-height: 1.2;
-  }
-  
-  h1 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.25em;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  h3 {
-    font-size: 1.2em;
-    margin-bottom: 0.5em;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font and color for body */
+body {
+  font-family: Calibri, sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add some spacing between sections */
+section {
+  margin-bottom: 40px;
+}
+
+/* Style links */
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+/* Set layout for header */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Set layout for main content area */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Set layout for footer */
+footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a class for highlighting text */
+.highlight {
+  background-color: #ffff99;
+}
+
+/* Set styles for headings */
+h1, h2, h3 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.25em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
