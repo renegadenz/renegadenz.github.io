@@ -94,7 +94,13 @@ li {
 
 /* Set styles for contact information */
 .contact-info {
-  margin-bottom: 2em;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 0.8em;
 }
 
 /* Set styles for job titles */
