@@ -94,18 +94,17 @@ li {
 
 /* Set styles for contact information */
 .contact-info {
-  position: fixed;
-  top: 20px;
-  right: 20px;
   background-color: #f7f7f7;
   padding: 20px;
   border: 1px solid #ccc;
-  font-size: 0.9em;
+  font-family: Calibri, sans-serif;
+  font-size: 14px;
   max-width: 300px;
-  clear: right;
+  margin: 20px;
 }
 
 .contact-info h2 {
+  font-weight: bold;
   font-size: 1.5em;
   margin-bottom: 0.5em;
 }
