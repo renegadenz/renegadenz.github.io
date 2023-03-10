@@ -34,8 +34,8 @@ main {
   margin: 0 auto;
   padding: 20px;
   padding-left: 50px; /* Add some left padding */
-  padding-right: 320px; /* Add some right padding to create a gap with contact info */
-  float: left; /* Add float property to the main element */
+  padding-right: 120px; /* Decrease the right padding to avoid overlap with contact info */
+  float: left;
 }
 
 /* Set layout for footer */
@@ -102,7 +102,7 @@ li {
   border: 1px solid #ccc;
   font-size: 0.9em;
   max-width: 300px;
-  clear: right; /* Add clear property to avoid overlap with the main element */
+  clear: right;
 }
 
 .contact-info h2 {
