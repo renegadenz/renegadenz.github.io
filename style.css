@@ -132,3 +132,33 @@ section p {
   width: 200px;
   margin: 10px;
 }
+
+.skills {
+  margin: 2rem 0;
+}
+
+.skills h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.skills li:before {
+  content: "• ";
+  color: #999;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 1.2rem;
+  margin-left: -1.2rem;
+}
