@@ -128,3 +128,8 @@ li {
 .job ul:last-of-type {
   margin-bottom: 0;
 }
+
+/* Set styles for about me section */
+.about-me {
+  margin-top: 80px; /* Add some space between the contact info and the content */
+}
