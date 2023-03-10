@@ -34,6 +34,7 @@ main {
   margin: 0 auto;
   padding: 20px;
   padding-left: 50px; /* Add some left padding */
+  padding-right: 320px; /* Add some right padding to create a gap with contact info */
 }
 
 /* Set layout for footer */
@@ -76,7 +77,6 @@ h3 {
 p {
   line-height: 1.5;
   margin-bottom: 1em;
-  word-wrap: break-word; /* Add word-wrap */
 }
 
 /* Set styles for unordered lists */
@@ -121,7 +121,6 @@ li {
 /* Set styles for job details */
 .job p {
   margin-bottom: 0.5em;
-  word-wrap: break-word; /* Add word-wrap */
 }
 
 /* Set styles for job responsibilities */
@@ -132,7 +131,6 @@ li {
 /* Set styles for job responsibilities list items */
 .job li {
   margin-bottom: 0.3em;
-  word-wrap: break-word; /* Add word-wrap */
 }
 
 /* Set styles for job offers */
@@ -142,4 +140,12 @@ li {
 
 /* Set styles for about me section */
 .about-me {
-  margin-top: 100
+  margin-top: 100px; /* Add some space between the contact info and the content */
+}
+
+/* Set styles for skills section */
+.skills {
+margin-top: 100px; /* Add some space between the contact info and the content */
+}
+
+ 
