@@ -1,4 +1,21 @@
+/* General styles */
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
 /* Styles for the header section */
+
 header {
   background-color: #333;
   color: #fff;
@@ -6,16 +23,15 @@ header {
 }
 
 header h1 {
-  margin: 0;
   font-size: 36px;
 }
 
 header h2 {
-  margin: 0;
   font-size: 24px;
 }
 
 /* Styles for the contact-info section */
+
 .contact-info {
   background-color: #f2f2f2;
   padding: 20px;
@@ -41,6 +57,7 @@ header h2 {
 }
 
 /* Styles for the about-me section */
+
 .about-me {
   padding: 20px;
   margin-top: 20px;
@@ -57,17 +74,11 @@ header h2 {
 }
 
 .about-me ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
-.about-me li {
-  margin: 0;
-  padding: 0;
-}
-
 /* Styles for the work-history section */
+
 .work-history {
   padding: 20px;
   margin-top: 20px;
@@ -93,17 +104,11 @@ header h2 {
 }
 
 .work-history ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
-.work-history li {
-  margin: 0;
-  padding: 0;
-}
-
 /* Styles for the certifications section */
+
 section {
   padding: 20px;
   margin-top: 20px;
@@ -132,6 +137,8 @@ section p {
   width: 200px;
   margin: 10px;
 }
+
+/* Styles for the skills section */
 
 .skills {
   margin: 2rem 0;
