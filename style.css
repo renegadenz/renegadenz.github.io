@@ -62,6 +62,7 @@ header h2 {
 .about-me {
   padding: 20px;
   margin-top: 20px;
+  margin: 20px auto; /* added style rule */
 }
 
 .about-me h1 {
@@ -83,6 +84,7 @@ header h2 {
 .work-history {
   padding: 20px;
   margin-top: 20px;
+  margin: 20px auto; /* added style rule */
 }
 
 .work-history h1 {
