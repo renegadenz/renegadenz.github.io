@@ -3,12 +3,26 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Header styles */
 .header {
   text-align: center;
   padding: 20px;
+  background-color: #0077CC;
+  color: #fff;
 }
 
 /* Section styles */
@@ -20,6 +34,8 @@ section {
 section h1 {
   margin-bottom: 10px;
   text-align: center;
+  color: #0077CC;
+  border-bottom: 2px solid #0077CC;
 }
 
 .contact-info p, .about-me p, .work-history .job p {
@@ -30,9 +46,17 @@ section h1 {
   margin-bottom: 20px;
 }
 
+.work-history .job h2 {
+  color: #0077CC;
+}
+
 .skills ul {
   list-style: none;
   padding-left: 0;
+}
+
+.skills li {
+  margin-bottom: 10px;
 }
 
 .certifications {
@@ -42,10 +66,18 @@ section h1 {
 .certification-images {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .certification-images img {
   width: 100px;
   height: auto;
-  margin: 0 10px;
+  margin: 10px;
+}
+
+/* Utility classes */
+.icon-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
