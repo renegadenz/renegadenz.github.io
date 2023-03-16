@@ -3,81 +3,90 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
-/* Container styles */
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 1em;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005299;
 }
 
 /* Header styles */
-.header {
+header {
   text-align: center;
-  padding: 20px;
-  background-color: #0077CC;
-  color: #fff;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header h2 {
+  font-size: 18px;
+  color: #666;
+  margin-top: -5px;
 }
 
 /* Section styles */
 section {
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-bottom: 30px;
 }
 
 section h1 {
-  margin-bottom: 10px;
-  text-align: center;
-  color: #0077CC;
-  border-bottom: 2px solid #0077CC;
-}
-
-.contact-info p, .about-me p, .work-history .job p {
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
+/* Contact info */
+.contact-info i {
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+/* Work history */
 .work-history .job {
   margin-bottom: 20px;
 }
 
-.work-history .job h2 {
-  color: #0077CC;
-}
-
+/* Skills */
 .skills ul {
-  list-style: none;
-  padding-left: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.skills li {
-  margin-bottom: 10px;
+.skills ul li {
+  padding: 3px 0;
 }
 
-.certifications {
-  text-align: center;
-}
-
+/* Certifications */
 .certification-images {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .certification-images img {
-  width: 100px;
-  height: auto;
-  margin: 10px;
-}
-
-/* Utility classes */
-.icon-text {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
 }
