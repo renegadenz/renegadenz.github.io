@@ -1,155 +1,51 @@
 /* General styles */
-
-h1, h2, h3, p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin: 0;
-  padding: 0;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 
 /* Header styles */
-
-header {
-  background-color: #333;
-  color: #fff;
+.header {
+  text-align: center;
   padding: 20px;
 }
 
-header h1 {
-  font-size: 36px;
-}
-
-header h2 {
-  font-size: 24px;
-}
-
-/* Contact-info styles */
-
-.contact-info {
-  background-color: #f2f2f2;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.contact-info h1 {
-  font-size: 24px;
-  margin-top: 0;
-}
-
-.contact-info p,
-.contact-info a {
-  margin: 0;
-}
-
-.contact-info a {
-  color: #333;
-  text-decoration: none;
-}
-
-.contact-info a:hover {
-  color: #000;
-}
-
-/* About-me styles */
-
-.about-me {
-  padding: 20px;
-  margin-top: 20px;
-  margin: 20px auto; /* added style rule */
-}
-
-.about-me h1 {
-  font-size: 24px;
-  margin-top: 0;
-}
-
-.about-me p {
-  margin: 0;
-  line-height: 1.5;
-}
-
-.about-me ul {
-  list-style: none;
-}
-
-/* Work-history styles */
-
-.work-history {
-  padding: 20px;
-  margin-top: 20px;
-  margin: 20px auto; /* added style rule */
-}
-
-.work-history h1 {
-  font-size: 24px;
-  margin-top: 0;
-}
-
-.work-history h2 {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-.work-history h3 {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.work-history p,
-.work-history h1,
-.work-history h2,
-.work-history h3 {
-  margin: 0;
-}
-
-.work-history ul {
-  list-style: none;
-}
-
-/* Certifications styles */
-
+/* Section styles */
 section {
+  margin-bottom: 20px;
   padding: 20px;
-  margin-top: 20px;
 }
 
 section h1 {
-  font-size: 24px;
-  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-section div,
-section p {
-  margin: 0;
-  margin-top: 10px;
+.contact-info p, .about-me p, .work-history .job p {
+  margin-bottom: 10px;
+}
+
+.work-history .job {
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.certifications {
+  text-align: center;
 }
 
 .certification-images {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
 .certification-images img {
-  width: 200px;
-  margin: 10px;
-}
-
-/* Skills styles */
-
-.skills {
-  margin: 2rem 0;
-}
-
-.skills h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  width: 100px;
+  height: auto;
+  margin: 0 10px;
 }
