@@ -6,34 +6,78 @@
     <title>James Mead - DevOps/Cloud Engineer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            padding: 0;
+            background-color: #f9f9f9;
         }
         .container {
             max-width: 900px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #333;
+            font-weight: 600;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+        h3 {
+            font-size: 20px;
+            color: #555;
+            margin-top: 0;
+        }
+        .section-title {
+            margin-top: 40px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            font-size: 24px;
+        }
+        p {
+            color: #555;
+            font-size: 16px;
         }
         ul {
             padding-left: 20px;
         }
-        .section-title {
-            border-bottom: 2px solid #333;
+        li {
             margin-bottom: 10px;
-            padding-bottom: 5px;
+            font-size: 16px;
+        }
+        .contact-info {
+            font-size: 16px;
+            margin-bottom: 20px;
         }
         .contact-info a {
             text-decoration: none;
             color: #0066cc;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .key-skills {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .certifications, .key-projects {
+            list-style: none;
+            padding: 0;
+        }
+        .certifications li::before, .key-projects li::before {
+            content: "•";
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
         }
     </style>
 </head>
@@ -56,20 +100,24 @@
 
         <section>
             <h2 class="section-title">Key Skills</h2>
-            <ul>
-                <li><strong>Cloud Technologies:</strong> AWS, OpenStack, Kubernetes, Docker, VMware</li>
-                <li><strong>Infrastructure as Code:</strong> Terraform, CloudFormation, Ansible</li>
-                <li><strong>CI/CD:</strong> Jenkins, GitLab CI/CD, Automation Pipelines, GitOps</li>
-                <li><strong>Observability & Monitoring:</strong> Elasticsearch, Prometheus, Nagios, Apache Kafka, Nifi</li>
-                <li><strong>Security:</strong> Code Scanning, Vulnerability Testing, Governance Policies</li>
-                <li><strong>Programming Languages:</strong> Python</li>
-                <li><strong>Other Tools:</strong> Apache, Nginx, Tomcat, Spring Boot, RedHat Linux</li>
-            </ul>
+            <div class="key-skills">
+                <ul>
+                    <li><strong>Cloud Technologies:</strong> AWS, OpenStack, Kubernetes, Docker, VMware</li>
+                    <li><strong>Infrastructure as Code:</strong> Terraform, CloudFormation, Ansible</li>
+                    <li><strong>CI/CD:</strong> Jenkins, GitLab CI/CD, Automation Pipelines, GitOps</li>
+                    <li><strong>Observability & Monitoring:</strong> Elasticsearch, Prometheus, Nagios, Apache Kafka, Nifi</li>
+                </ul>
+                <ul>
+                    <li><strong>Security:</strong> Code Scanning, Vulnerability Testing, Governance Policies</li>
+                    <li><strong>Programming Languages:</strong> Python</li>
+                    <li><strong>Other Tools:</strong> Apache, Nginx, Tomcat, Spring Boot, RedHat Linux</li>
+                </ul>
+            </div>
         </section>
 
         <section>
             <h2 class="section-title">Certifications</h2>
-            <ul>
+            <ul class="certifications">
                 <li>AWS Certified DevOps Engineer - Professional</li>
                 <li>AWS Certified Solutions Architect</li>
                 <li>AWS Certified Developer Associate</li>
@@ -87,6 +135,7 @@
 
         <section>
             <h2 class="section-title">Work Experience</h2>
+
             <h3>Sky New Zealand</h3>
             <p><strong>Interim Cloud Platform Owner</strong> | Nov 2019 – Present | Remote</p>
             <ul>
@@ -141,7 +190,7 @@
 
         <section>
             <h2 class="section-title">Key Projects</h2>
-            <ul>
+            <ul class="key-projects">
                 <li><strong>Kubernetes & GitOps Implementation:</strong> Led the deployment of Amazon EKS for container orchestration and adopted GitOps practices through GitLab CI/CD, enabling continuous deployment and reducing manual intervention in infrastructure updates.</li>
                 <li><strong>Centralised Logging & Monitoring:</strong> Deployed Elasticsearch as a central logging system, improving monitoring and performance insights across cloud infrastructure and applications.</li>
                 <li><strong>Cloud Cost Optimisation:</strong> Implemented FinOps strategies to monitor and optimise cloud costs, achieving over 15% cost savings across multiple cloud accounts by streamlining resource usage.</li>
